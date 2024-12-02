@@ -1,0 +1,546 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.background-video {
+  border: .25vh solid #362e21;
+  border-radius: 20px;
+  width: 132vh;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4vh 4vh 2vh #000000b3;
+}
+
+.div-block {
+  height: 5vh;
+}
+
+.body {
+  background-image: url('../images/paper-texture.png');
+  background-position: 0 0;
+  background-size: 75vh;
+}
+
+.div-block-2 {
+  height: 5vh;
+}
+
+.text-block {
+  text-align: center;
+  font-family: Santas Air Mail, Arial, sans-serif;
+  font-size: 12vh;
+  line-height: 18vh;
+}
+
+.div-block-3 {
+  font-family: Candcu, Arial, sans-serif;
+}
+
+.text-block-2 {
+  text-align: center;
+  height: 10vh;
+  font-size: 7vh;
+  line-height: 8vh;
+}
+
+.div-block-4, .div-block-5 {
+  height: 10vh;
+}
+
+.grid {
+  grid-template-rows: auto;
+  width: 144.3vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block-3 {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-6 {
+  width: 144.3vh;
+  height: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-block-7 {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  height: 65vh;
+}
+
+.div-block-8 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 28vh;
+  height: 62vh;
+  display: flex;
+}
+
+.div-block-9 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 33vh;
+  height: 62vh;
+  padding-right: 1vh;
+  display: flex;
+}
+
+.text-block-4, .text-block-5 {
+  font-family: "Xgw 02", Arial, sans-serif;
+  font-size: 5.5vh;
+  line-height: 7vh;
+}
+
+.div-block-10 {
+  height: 0;
+}
+
+.code-embed {
+  width: 0;
+  height: 0;
+}
+
+.div-block-11 {
+  grid-column-gap: 12vh;
+  grid-row-gap: 12vh;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 120vh;
+  height: 25vh;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.image-2 {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1vh 1vh 1vh #000000b3;
+}
+
+.div-block-12 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-3 {
+  grid-column-gap: 0vh;
+  grid-row-gap: 0vh;
+  flex: 0 auto;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-self: center;
+  place-items: center;
+  width: 50vh;
+  height: 12vh;
+}
+
+.div-block-13 {
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 50vh;
+  height: 30vh;
+  display: flex;
+}
+
+.grid-4 {
+  grid-column-gap: 0vh;
+  grid-row-gap: 0vh;
+  grid-template: ". Area"
+  / 2fr 1fr 1fr;
+  width: 50vh;
+  height: 5vh;
+}
+
+.text-block-6 {
+  font-family: "Xgw 02", Arial, sans-serif;
+  font-size: 6vh;
+  line-height: 5vh;
+}
+
+.button {
+  background-color: #3898ec00;
+  background-image: url('../images/icons8-telegram-50.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8vh;
+  height: 8vh;
+}
+
+.button._2 {
+  background-image: url('../images/icons8-twitterx-50.png');
+  background-position: 0 0;
+  background-size: contain;
+}
+
+.button._3 {
+  background-image: url('../images/dexscreener.png');
+  background-position: 50%;
+  background-size: contain;
+}
+
+.button._4 {
+  background-image: url('../images/Raydium-icon.png');
+  background-size: contain;
+}
+
+.div-block-14 {
+  height: 5vh;
+}
+
+.div-block-15 {
+  background-image: linear-gradient(#0000, #00000080);
+  height: 15vh;
+}
+
+.div-block-16 {
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 30vh;
+  display: flex;
+}
+
+.utility-page-wrap {
+  background-image: url('../images/236-2360360_1950-b-2420-federal-reserve-star-note-richmond-district-1934-twenty-dollar.png');
+  background-position: 0 0;
+  background-size: 25vh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 70vh;
+  display: flex;
+}
+
+.heading {
+  color: #e50004;
+  -webkit-text-stroke-color: #fff;
+  text-shadow: 0 0 1vh #000;
+  border: 0 solid #000;
+  font-family: Santas Air Mail, Arial, sans-serif;
+  font-size: 5vh;
+  line-height: 5vh;
+}
+
+@media screen and (min-width: 1920px) {
+  .image-2 {
+    max-width: 100%;
+  }
+
+  .text-block-6 {
+    font-family: "Xgw 02", Arial, sans-serif;
+    font-size: 2vh;
+    line-height: 2vh;
+  }
+
+  .div-block-16 {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .background-video {
+    width: 101vh;
+    height: 43.5vh;
+  }
+
+  .text-block {
+    font-size: 9vh;
+    line-height: 14vh;
+  }
+
+  .text-block-2 {
+    height: 7vh;
+    font-size: 5.5vh;
+    line-height: 7vh;
+  }
+
+  .image {
+    height: 46vh;
+  }
+
+  .div-block-8 {
+    width: 20vh;
+    height: 45vh;
+  }
+
+  .div-block-9 {
+    width: 30vh;
+    height: 45vh;
+  }
+
+  .text-block-4, .text-block-5 {
+    font-size: 4vh;
+    line-height: 5vh;
+  }
+
+  .div-block-10 {
+    height: 0;
+  }
+
+  .div-block-11 {
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    flex-flow: column;
+    align-items: center;
+    width: 100vh;
+    height: 44vh;
+    padding-top: 0;
+  }
+
+  .div-block-13 {
+    height: 18vh;
+    margin-top: 0;
+  }
+
+  .div-block-16 {
+    width: 50vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .background-video {
+    width: 63vh;
+    height: 27.5vh;
+    box-shadow: 2vh 2vh 1vh #000000b3;
+  }
+
+  .div-block-2 {
+    height: 3vh;
+  }
+
+  .text-block {
+    font-size: 6vh;
+    line-height: 10vh;
+  }
+
+  .text-block-2 {
+    height: 4vh;
+    font-size: 3.5vh;
+    line-height: 4vh;
+  }
+
+  .div-block-7 {
+    justify-content: center;
+    align-items: center;
+    width: 48vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    max-width: none;
+    height: 30vh;
+  }
+
+  .div-block-8 {
+    width: 5vh;
+    height: 30vh;
+  }
+
+  .div-block-9 {
+    width: 19vh;
+    height: 30vh;
+  }
+
+  .text-block-4, .text-block-5 {
+    font-size: 2.75vh;
+    line-height: 3vh;
+  }
+
+  .div-block-11 {
+    grid-column-gap: 0vh;
+    grid-row-gap: 0vh;
+    width: 63vh;
+    height: 40vh;
+    margin-top: 2vh;
+    padding-top: 0;
+  }
+
+  .image-2 {
+    box-shadow: 1vh 1vh .5vh #000000b3;
+  }
+
+  .grid-3 {
+    height: 8vh;
+  }
+
+  .div-block-13 {
+    width: 47vh;
+    height: 18vh;
+    margin-top: 1vh;
+  }
+
+  .grid-4 {
+    height: 4vh;
+  }
+
+  .text-block-6 {
+    font-family: "Xgw 02", Arial, sans-serif;
+    font-size: 3.5vh;
+    line-height: 3.5vh;
+  }
+
+  .div-block-15 {
+    height: 10vh;
+  }
+
+  .div-block-16 {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .background-video {
+    width: 42.5vh;
+    height: 18vh;
+  }
+
+  .div-block {
+    height: 2vh;
+  }
+
+  .text-block {
+    font-size: 4vh;
+    line-height: 6vh;
+  }
+
+  .text-block-2 {
+    height: 3vh;
+    font-size: 2.3vh;
+    line-height: 3vh;
+  }
+
+  .div-block-7 {
+    justify-content: center;
+    align-items: center;
+    width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    height: 24vh;
+  }
+
+  .div-block-8 {
+    width: 3vh;
+    height: 23vh;
+  }
+
+  .div-block-9 {
+    width: 15vh;
+    height: 23vh;
+  }
+
+  .text-block-4, .text-block-5 {
+    font-size: 2.2vh;
+    line-height: 2.5vh;
+  }
+
+  .div-block-11 {
+    width: 42vh;
+    height: 31vh;
+    margin-top: 2vh;
+    padding-top: 0;
+  }
+
+  .grid-3 {
+    width: 40vh;
+  }
+
+  .div-block-13 {
+    width: 42vh;
+    height: 15vh;
+  }
+
+  .grid-4 {
+    width: 40vh;
+    height: 3vh;
+  }
+
+  .text-block-6 {
+    font-size: 3vh;
+  }
+
+  .button._1, .button._2, .button._3, .button._4 {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .div-block-15 {
+    height: 12vh;
+  }
+
+  .div-block-16 {
+    width: 38vh;
+    height: 17vh;
+  }
+}
+
+#w-node-_0cc83ee5-65b4-bcf4-9e04-050f0a4afee9-e69c74fd, #w-node-_11a6cad8-58a9-8c27-6951-d800976e2d25-e69c74fd, #w-node-_0478a934-a564-911f-6c0c-95068a9ea81f-e69c74fd {
+  place-self: center;
+}
+
+#w-node-_960332a5-8c73-b99d-9e97-9d36ab2a0945-e69c74fd, #w-node-d11f546c-fe5f-6e01-edf6-e7aac945c2ba-e69c74fd, #w-node-_2fe89769-4d06-86d0-e75e-497c60252e48-e69c74fd {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
+@font-face {
+  font-family: 'Candcu';
+  src: url('../fonts/Candcu__.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Santas Air Mail';
+  src: url('../fonts/Santas-Air-Mail.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Xgw 02';
+  src: url('../fonts/SkribblughRegular-XGW02.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
